@@ -3,7 +3,12 @@ import "./RecipeCard.css";
 
 function RecipeCard({ recipe }) {
   return (
-    <div className="recipecard">
+    <div
+      className="recipecard"
+      onClick={() => {
+        window.open(recipe["recipe"]["url"]);
+      }}
+    >
       <img
         src={recipe["recipe"]["image"]}
         alt="RecipeIMG"

@@ -15,7 +15,7 @@
   font-size: 15px;
 }
 .app_search {
-  padding: 6px 16px;
+  padding: 7px 16px;
   font-size: 15px;
   margin-left: 10px;
   background-color: #003049;
@@ -34,4 +34,10 @@
   display: grid;
   grid-template-columns: 230px 230px;
   align-items: baseline;
+}
+.app_labels {
+  padding: 8px 8px;
+  margin-left: 8px;
+  border-radius: 5px;
+  border: 2px solid #003049;
 }
