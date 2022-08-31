@@ -20,7 +20,7 @@
   margin-left: 10px;
   background-color: #003049;
   border: 2px solid #003049;
-  /* border-radius: 3px; */
+  border-radius: 3px;
   color: #fff;
   cursor: pointer;
 }
@@ -44,13 +44,13 @@
 @media screen and (max-width: 700px) {
   .app_input {
     padding: 6px 18px;
-    margin-left: 50px;
+    margin-left: 30px;
     width: 30%;
     font-size: 15px;
   }
   .app_labels {
     margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 30px;
   }
   .app_recipes {
     margin-left: 20px;
@@ -58,5 +58,8 @@
     display: grid;
     grid-template-columns: 180px 180px;
     align-items: baseline;
+  }
+  .app_search {
+    margin-left: 30px;
   }
 }
