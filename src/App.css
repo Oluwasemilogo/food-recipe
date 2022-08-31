@@ -24,3 +24,14 @@
   color: #fff;
   cursor: pointer;
 }
+.app_search:hover {
+  color: #003049;
+  border: 2px solid #003049;
+  background-color: #fff;
+}
+.app_recipes {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
