@@ -12,3 +12,16 @@
 .recipecard {
   cursor: pointer;
 }
+@media screen and (max-width: 700px) {
+  .recipecard_img {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .recipecard_name {
+    max-width: 150px;
+    text-align: center;
+    margin: 12px 0px;
+  }
+}
